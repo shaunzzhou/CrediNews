@@ -5,8 +5,9 @@ cd $BASEDIR/..
 echo Current Directory:
 pwd
 
-export DATA_PATH=$1
-export RESULTS_PATH=results/llm_rewrite_results_${DATA_PATH}
+DATA_FILE=$1
+export DATA_PATH=dataset/$DATA_FILE
+export RESULTS_PATH=results/llm_rewrite_results_${DATA_FILE}
 
 echo "Evaluating LLM on $DATA_PATH dataset; output: $RESULTS_PATH"
 
