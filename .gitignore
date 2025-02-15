@@ -2,5 +2,7 @@ processed_data.csv
 glove.6B.100d.txt
 glove.6B.300d.txt
 processed_data_filtered.csv
+train_data.csv
+nohup.out
 .env
 *.pyc
